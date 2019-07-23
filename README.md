@@ -18,3 +18,7 @@ git clone https://github.com/contentful/boilerplate-javascript.git
 ```shell
 npm install && npm start
 ```
+
+Source
+https://github.com/contentful/product-catalogue-js
+https://jsfiddle.net/Surakittie/bydzmfkL/
