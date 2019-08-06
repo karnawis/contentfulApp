@@ -1,36 +1,29 @@
 {
-  "name": "boilerplate-javascript",
+  "name": "contentfulapp",
   "version": "1.0.0",
-  "description": "A boilerplate javascript project",
+  "description": "Boilerplate project for getting started using JavaScript with Contentful",
   "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentful/boilerplate-javascript.git"
+    "url": "git+https://github.com/karnawis/contentfulApp.git"
   },
-  "engines": {
-    "node": ">=4.7.2"
-  },
-  "keywords": [
-    "Contentful",
-    "boilerplate",
-    "Getting-Started"
-  ],
-  "author": "Khaled Garbaya <khaled@contentful.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/contentful/boilerplate-javascript/issues"
+    "url": "https://github.com/karnawis/contentfulApp/issues"
   },
-  "homepage": "https://github.com/contentful/boilerplate-javascript#readme",
-  "dependencies": {
-    "chalk": "^1.1.3",
-    "cli-table2": "^0.2.0",
-    "contentful": "^4.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  }
+  "homepage": "https://github.com/karnawis/contentfulApp#readme"
 }
