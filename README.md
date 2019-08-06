@@ -1,23 +1,15 @@
-# Contentful JavaScript boilerplate project
+# README file for contentful app
 
-Boilerplate project for getting started using JavaScript with Contentful
+### How do I build the app? ###
+* `npm install`
+* `npm install -g browser-sync`
 
-## Prerequisites
+## Running
+* `gulp` 
 
--   **Node** v4.7.2 or greater
+## Testing
+* `npm test`
 
-## Start the project
-
-### :one: Clone the project using the following command:
-
-```bash
-git clone https://github.com/contentful/boilerplate-javascript.git
-```
-### :two: Install dependencies and start it:
-
-```shell
-npm install && npm start
-```
 
 Source
 https://github.com/contentful/product-catalogue-js
