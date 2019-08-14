@@ -14,3 +14,7 @@
 Source
 https://github.com/contentful/product-catalogue-js
 https://jsfiddle.net/Surakittie/bydzmfkL/
+
+
+look into art.html art.js 
+image is loading but slug isn't
