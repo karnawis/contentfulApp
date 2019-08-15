@@ -30,7 +30,7 @@ contentfulClient
 function renderSinglePost(blog) {
 	let fields = blog.fields;
 	console.log('fields',fields);
-	console.log('image url',fields.heroImage.fields.file.url);
+	console.log('image url',fields.heroImage.fields.file.url,' fields.slug', fields.slug);
 
 	//console.log(`render fields ${JSON.stringify(fields)}`);
 	
@@ -58,10 +58,10 @@ function renderTitle(title) {
 	}
 
 function renderImage(image, slug) {
-	if(image && slug) {
+	if(image) {
 		return (
 			"<a href='/" +
-				
+			slug +
 			"'><img src='" +
 			image +
 			"' width='200'/>"+
